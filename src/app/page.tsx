@@ -345,9 +345,14 @@ export default function Home() {
         id="hero"
         className="scroll-mt-24 relative min-h-screen flex items-center justify-center overflow-hidden text-center"
       >
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/hero-elektrotechnik.webp')" }}
+        {/* eslint-disable-next-line @next/next/no-img-element -- LCP image, loaded eagerly with high priority */}
+        <img
+          src="/hero-elektrotechnik.webp"
+          alt=""
+          aria-hidden="true"
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 h-full w-full object-cover object-center"
         />
 
         {/* Overlay only for dark themes */}
