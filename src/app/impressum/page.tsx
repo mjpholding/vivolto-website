@@ -55,6 +55,15 @@ export default function Impressum() {
 
           <div className="space-y-2 text-gray-700">
             <p>
+              <span className="font-semibold">Telefon:</span>{" "}
+              <a
+                href="tel:+492273951550"
+                className="text-blue-600 hover:underline"
+              >
+                +49 (0) 2273 951 55 0
+              </a>
+            </p>
+            <p>
               <span className="font-semibold">E-Mail:</span>{" "}
               <a
                 href="mailto:info@vivolto.de"

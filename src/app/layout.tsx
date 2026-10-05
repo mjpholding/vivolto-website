@@ -38,6 +38,7 @@ const organizationJsonLd = {
   logo: `${SITE_URL}/vivolto-logo-transparent.png`,
   image: `${SITE_URL}/hero-elektrotechnik.webp`,
   email: "info@vivolto.de",
+  telephone: "+49 2273 951550",
   description: DESCRIPTION,
   address: {
     "@type": "PostalAddress",
