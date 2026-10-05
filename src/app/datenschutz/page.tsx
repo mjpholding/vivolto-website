@@ -3,6 +3,7 @@ import React from "react";
 export const metadata = {
   title: "Datenschutzerklärung | Vivolto GmbH",
   description: "Datenschutzerklärung der Vivolto GmbH",
+  alternates: { canonical: "/datenschutz" },
 };
 
 export default function Datenschutz() {
@@ -106,7 +107,9 @@ export default function Datenschutz() {
 
             <p>
               Sofern personenbezogene Daten in die USA übertragen werden, erfolgt
-              dies auf Grundlage geeigneter Garantien gemäß Art. 46 DSGVO.
+              dies auf Grundlage des Angemessenheitsbeschlusses der EU-Kommission
+              zum EU-US Data Privacy Framework (Art. 45 DSGVO), unter dem Vercel Inc.
+              zertifiziert ist.
             </p>
           </div>
         </section>
@@ -115,14 +118,15 @@ export default function Datenschutz() {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            4. Kontaktformular
+            4. Kontaktaufnahme per E-Mail
           </h2>
 
           <div className="space-y-4 text-gray-700">
             <p>
-              Wenn Sie uns über das Kontaktformular Anfragen zukommen lassen, werden
-              Ihre Angaben aus dem Formular inklusive der von Ihnen angegebenen
-              Kontaktdaten zum Zwecke der Bearbeitung Ihrer Anfrage verarbeitet.
+              Wenn Sie uns per E-Mail kontaktieren (z. B. über die Schaltfläche
+              „Projekt anfragen“, die Ihr E-Mail-Programm öffnet), werden Ihre
+              Angaben inklusive der von Ihnen angegebenen Kontaktdaten zum Zwecke
+              der Bearbeitung Ihrer Anfrage verarbeitet.
             </p>
 
             <p>
@@ -154,20 +158,33 @@ export default function Datenschutz() {
         <hr className="my-8" />
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-4">5. Cookies</h2>
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            5. Wetteranzeige (Open-Meteo)
+          </h2>
 
           <div className="space-y-4 text-gray-700">
             <p>
-              Unsere Website verwendet ausschließlich technisch notwendige Cookies,
-              sofern dies für den Betrieb der Website erforderlich ist.
+              Auf der Startseite zeigen wir das aktuelle Wetter an. Die Wetterdaten
+              werden von Ihrem Browser direkt beim Dienst Open-Meteo
+              (https://open-meteo.com) abgerufen. Dabei wird technisch bedingt Ihre
+              IP-Adresse an Open-Meteo übermittelt.
             </p>
 
             <p>
-              Eine Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.
+              Ihr Browser fragt Sie, ob die Website Ihren Standort verwenden darf.
+              Nur wenn Sie zustimmen, werden die ungefähren Koordinaten Ihres
+              Standorts an Open-Meteo übermittelt, um das Wetter für Ihre Region
+              anzuzeigen. Lehnen Sie ab, wird das Wetter für Köln angezeigt. Wir
+              selbst speichern Ihren Standort nicht.
             </p>
 
             <p>
-              Tracking- oder Marketing-Cookies werden nicht eingesetzt.
+              Rechtsgrundlage für die Standortabfrage ist Ihre Einwilligung
+              (Art. 6 Abs. 1 lit. a DSGVO, § 25 Abs. 1 TDDDG), die Sie jederzeit in
+              den Einstellungen Ihres Browsers widerrufen können. Rechtsgrundlage für
+              die Übermittlung der IP-Adresse ist unser berechtigtes Interesse an
+              einer ansprechenden Darstellung der Website (Art. 6 Abs. 1 lit. f
+              DSGVO).
             </p>
           </div>
         </section>
@@ -176,7 +193,29 @@ export default function Datenschutz() {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            6. Ihre Rechte
+            6. Cookies und lokale Speicherung
+          </h2>
+
+          <div className="space-y-4 text-gray-700">
+            <p>
+              Unsere Website setzt keine Tracking- oder Marketing-Cookies ein.
+            </p>
+
+            <p>
+              Ihre Auswahl der Farbdarstellung (Design) wird im lokalen Speicher
+              Ihres Browsers (Local Storage) abgelegt, damit sie beim nächsten Besuch
+              erhalten bleibt. Diese Information verlässt Ihr Gerät nicht. Die
+              Speicherung ist für den von Ihnen gewünschten Dienst unbedingt
+              erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG).
+            </p>
+          </div>
+        </section>
+
+        <hr className="my-8" />
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+            7. Ihre Rechte
           </h2>
 
           <p className="mb-4 text-gray-700">Sie haben jederzeit das Recht auf:</p>
@@ -197,15 +236,24 @@ export default function Datenschutz() {
 
           <p className="mt-4 text-gray-700">
             Sie haben zudem das Recht, sich bei einer Datenschutzaufsichtsbehörde
-            zu beschweren.
+            zu beschweren (Art. 77 DSGVO). Für uns zuständig ist:
           </p>
+
+          <div className="mt-2 bg-gray-50 p-4 rounded text-gray-700">
+            <p className="font-semibold">
+              Landesbeauftragte für Datenschutz und Informationsfreiheit
+              Nordrhein-Westfalen
+            </p>
+            <p>Kavalleriestraße 2–4</p>
+            <p>40213 Düsseldorf</p>
+          </div>
         </section>
 
         <hr className="my-8" />
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            7. SSL- bzw. TLS-Verschlüsselung
+            8. SSL- bzw. TLS-Verschlüsselung
           </h2>
 
           <div className="space-y-4 text-gray-700">
@@ -225,7 +273,7 @@ export default function Datenschutz() {
 
         <section>
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            8. Widerspruch gegen Werbe-E-Mails
+            9. Widerspruch gegen Werbe-E-Mails
           </h2>
 
           <p className="text-gray-700">
@@ -234,6 +282,10 @@ export default function Datenschutz() {
             widersprochen.
           </p>
         </section>
+
+        <hr className="my-8" />
+
+        <p className="text-gray-600 text-sm">Stand: Oktober 2026</p>
       </div>
     </div>
   );

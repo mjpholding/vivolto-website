@@ -3,6 +3,7 @@ import React from "react";
 export const metadata = {
   title: "Impressum | Vivolto GmbH",
   description: "Impressum und Kontaktinformationen der Vivolto GmbH",
+  alternates: { canonical: "/impressum" },
 };
 
 export default function Impressum() {
@@ -97,22 +98,6 @@ export default function Impressum() {
 
           <div className="space-y-4 text-gray-700">
             <p>
-              Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
-            </p>
-            <p>
-              <a
-                href="https://ec.europa.eu/consumers/odr"
-                className="text-blue-600 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                https://ec.europa.eu/consumers/odr
-              </a>
-            </p>
-            <p>
-              Unsere E-Mail-Adresse finden Sie oben im Impressum.
-            </p>
-            <p>
               Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren
               vor einer Verbraucherschlichtungsstelle teilzunehmen.
             </p>
@@ -128,11 +113,11 @@ export default function Impressum() {
 
           <div className="space-y-4 text-gray-700">
             <p>
-              Als Diensteanbieter sind wir gemäß § 5 DDG und den allgemeinen Gesetzen
-              für eigene Inhalte auf diesen Seiten verantwortlich.
+              Als Diensteanbieter sind wir gemäß § 7 Abs. 1 DDG für eigene Inhalte auf
+              diesen Seiten nach den allgemeinen Gesetzen verantwortlich.
             </p>
             <p>
-              Wir sind jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
+              Nach §§ 8 bis 10 DDG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
               Informationen zu überwachen oder nach Umständen zu forschen, die auf eine
               rechtswidrige Tätigkeit hinweisen.
             </p>

@@ -347,7 +347,7 @@ export default function Home() {
       >
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/hero-elektrotechnik.jpg')" }}
+          style={{ backgroundImage: "url('/hero-elektrotechnik.webp')" }}
         />
 
         {/* Overlay only for dark themes */}
@@ -434,7 +434,7 @@ export default function Home() {
           <div className="order-2 md:order-1 md:col-span-6">
             <div className="relative overflow-hidden rounded-2xl border" style={panelStyle}>
               <img
-                src="/images/sections/ueber-uns.png"
+                src="/images/sections/ueber-uns.webp"
                 alt="Vivolto – Logo wird im Büro gemalt"
                 className="w-full h-[260px] md:h-[380px] object-cover"
                 loading="lazy"
@@ -494,7 +494,7 @@ export default function Home() {
           <div className="md:col-span-7">
             <div className="relative overflow-hidden rounded-2xl border" style={panelStyle}>
               <img
-                src="/images/sections/elektrotechnik.png"
+                src="/images/sections/elektrotechnik.webp"
                 alt="Elektrotechnik – Industrieinstallation"
                 className="h-[280px] w-full object-cover md:h-[360px]"
                 loading="lazy"
@@ -516,7 +516,7 @@ export default function Home() {
               style={panelStyle}
             >
               <img
-                src="/images/sections/photovoltaik.png"
+                src="/images/sections/photovoltaik.webp"
                 alt="Photovoltaik – Industrie und Gewerbe"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -568,7 +568,7 @@ export default function Home() {
               style={panelStyle}
             >
               <img
-                src="/images/sections/knx.png"
+                src="/images/sections/knx.webp"
                 alt="KNX Systeme – Gebäudeautomation in Industrieumgebung"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -590,7 +590,7 @@ export default function Home() {
               style={panelStyle}
             >
               <img
-                src="/images/sections/gebaeudetechnik.png"
+                src="/images/sections/gebaeudetechnik.webp"
                 alt="Gebäudetechnik – Elektrische Infrastruktur und Versorgung"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -642,7 +642,7 @@ export default function Home() {
               style={panelStyle}
             >
               <img
-                src="/images/sections/nachhaltigkeit.png"
+                src="/images/sections/nachhaltigkeit.webp"
                 alt="Nachhaltigkeit – energieeffiziente Gebäudetechnik"
                 className="h-full w-full object-cover"
                 loading="lazy"
@@ -671,7 +671,7 @@ export default function Home() {
           <div className="mt-10">
             <div className="relative overflow-hidden rounded-2xl border" style={panelStyle}>
               <img
-                src="/images/sections/team/group.png"
+                src="/images/sections/team/group.webp"
                 alt="Vivolto Team – Gruppenfoto"
                 className="h-[420px] w-full object-cover"
                 style={{ objectPosition: "50% 20%" }}
@@ -683,12 +683,12 @@ export default function Home() {
 
           <div className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6">
             {[
-              { name: "Jens Fischer", role: "Projektleiter", src: "/images/sections/team/team-1.png" },
-              { name: "Katharina Müller", role: "Projektkoordination", src: "/images/sections/team/team-2.png" },
-              { name: "Stefan Wagner", role: "Bauleitung", src: "/images/sections/team/team-3.png" },
-              { name: "Michael Novak", role: "Service", src: "/images/sections/team/team-4.png" },
-              { name: "Frank Bauer", role: "PV-Spezialist", src: "/images/sections/team/team-5.png" },
-              { name: "Ayhan Demir", role: "Techniker", src: "/images/sections/team/team-6.png" },
+              { name: "Jens Fischer", role: "Projektleiter", src: "/images/sections/team/team-1.webp" },
+              { name: "Katharina Müller", role: "Projektkoordination", src: "/images/sections/team/team-2.webp" },
+              { name: "Stefan Wagner", role: "Bauleitung", src: "/images/sections/team/team-3.webp" },
+              { name: "Michael Novak", role: "Service", src: "/images/sections/team/team-4.webp" },
+              { name: "Frank Bauer", role: "PV-Spezialist", src: "/images/sections/team/team-5.webp" },
+              { name: "Ayhan Demir", role: "Techniker", src: "/images/sections/team/team-6.webp" },
             ].map((p) => (
               <div key={p.name} className="text-center">
                 <div

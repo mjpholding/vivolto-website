@@ -3,6 +3,7 @@ import React from "react";
 export const metadata = {
   title: "AGB | Vivolto GmbH",
   description: "Allgemeine Geschäftsbedingungen der Vivolto GmbH",
+  alternates: { canonical: "/agb" },
 };
 
 export default function AGB() {
